@@ -1,0 +1,55 @@
+body {
+	background-color: #202020;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+table {
+    margin: 0;
+}
+
+.cell {
+	text-align: center;
+	font-size: 75pt;
+	color: white;
+	background-color: #323232;
+	border: none;
+	border-radius: 5%;
+	width: 100pt;
+	height: 100pt;
+}
+
+.cell-set {
+	background-color: #3b3b3b;
+}
+
+.navigator {
+    text-align: center;
+	font-size: 40pt;
+	color: #323232;
+	background-color: rgb(95, 178, 242);
+	border: none;
+	border-radius: 5%;
+	width: 100pt;
+	height: 60pt;
+}
+
+.disabled {
+	color: #3b3b3b;
+	background-color: #323232;
+}
+
+.on-progress {
+    color: white;
+    background-color: green;
+}
+
+.game-over {
+    color: white;
+	background-color: #323232;
+}

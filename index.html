@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tic Tac Toe</title>
+	
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<script src="./assets/js/game.js"></script>
+</head>
+<body>
+	<table>
+		<tr>
+			<td><button id="cell0" class="cell" onclick="handleClick(0)"></button></td>
+			<td><button id="cell1" class="cell" onclick="handleClick(1)"></button></td>
+			<td><button id="cell2" class="cell" onclick="handleClick(2)"></button></td>
+		</tr>
+		<tr>
+			<td><button id="cell3" class="cell" onclick="handleClick(3)"></button></td>
+			<td><button id="cell4" class="cell" onclick="handleClick(4)"></button></td>
+			<td><button id="cell5" class="cell" onclick="handleClick(5)"></button></td>
+		</tr>
+		<tr>
+			<td><button id="cell6" class="cell" onclick="handleClick(6)"></button></td>
+			<td><button id="cell7" class="cell" onclick="handleClick(7)"></button></td>
+			<td><button id="cell8" class="cell" onclick="handleClick(8)"></button></td>
+		</tr>
+		<tr>
+			<td><button id="prev" class="navigator" onclick="navigatePrev()"><</button></td>
+			<td><button id="status" class="navigator on-progress" onclick="setMove(0)"></button></td>
+			<td><button id="next" class="navigator" onclick="navigateNext()">></button></td>
+		</tr>
+	</table>
+</body>
+</html>
